@@ -1,0 +1,7 @@
+use std::fs::read_to_string;
+
+fn main() {
+    // let filepath = "./input"
+    let filepath = "./example";
+    let lines = read_to_string(filepath).unwrap().lines().map(|line| line);
+}
